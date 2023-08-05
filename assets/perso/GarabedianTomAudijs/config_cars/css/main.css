@@ -1,0 +1,40 @@
+#audi-image {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+}
+#customization-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+button {
+    margin: 0 10px;
+    padding: 0;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+button img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+.catégorieBouton
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.catégorieRoue
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hidden {
+    display: none;
+  }
