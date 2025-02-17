@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+     <!-- Définition de l'encodage et de la compatibilité mobile -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Titre affiché dans l'onglet du navigateur -->
+    <title>Notre Histoire d'Amour</title>
+
+    <!-- Lien vers la feuille de style CSS -->
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Tom ❤️ Angèle</h1>
+    </header>
+
+    <section class="intro">
+        <h2>Notre Belle Histoire</h2>
+        <p>Les moments forts et les souvenirs précieux de notre histoire d'amour.</p>
+    </section>
+
+    <!-- Ligne du temps des souvenirs -->
+<section class="timeline">
+    <!-- Notre rencontre -->
+    <div class="event">
+        <h3>✨ Notre Rencontre</h3>
+        <p>Nous nous sommes rencontrés sur Tinder après quelques jours à échanger et apprendre à se connaître. Une connexion s’est vite créée, donnant naissance à cette belle histoire. ❤️</p>
+    </div>
+
+    <!-- Premier rendez-vous -->
+    <div class="event">
+        <h3>💌 Premier Rendez-vous</h3>
+        <p>Notre premier rendez-vous s'est déroulé au restaurant <strong>Café des Arts</strong> à Aubagne. Je t’ai invitée et on a passé une merveilleuse soirée à rire, discuter et déguster de bons plats. 🥂🍽️</p>
+    </div>
+
+    <!-- Premier baiser -->
+    <div class="event">
+        <h3>🌹 Premier Baiser</h3>
+        <p>Notre premier baiser, c’était lors de notre deuxième rendez-vous. On avait installé des couvertures et des plaids dans la voiture, acheté plein de gourmandises, et on a regardé un film sous les étoiles. 🌌🍫🎬</p>
+    </div>
+</section>
+
+
+    <!-- Section du carrousel -->
+<section class="carousel-container">
+    <h2>Quelques Souvenirs 🌸</h2>
+    <div class="carousel">
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <div class="carousel-images">
+            <img src="src/img/galerie/ph10.jpg" alt="ph10" class="carousel-image">
+            <img src="src/img/acceuil/ph3.jpg" alt="ph3" class="carousel-image">
+            <img src="src/img/acceuil/ph4.jpg" alt="ph4" class="carousel-image">
+            <img src="src/img/galerie/ph7.jpg" alt="ph7" class="carousel-image">
+            <img src="src/img/galerie/ph6.jpg" alt="ph7" class="carousel-image">
+            <img src="src/img/galerie/ph9.jpg" alt="ph7" class="carousel-image">
+        </div>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    <a href="galerie.html" class="view-more">Voir plus de souvenirs 📸</a>
+</section>
+
+<!-- 💖 Section Biographie -->
+<section class="biography">
+    <h2>💞 Notre histoire</h2>
+    <p>
+        🥰 Une rencontre inattendue, une histoire inoubliable.  
+        Nous, <strong>Tom & Angèle</strong>, nous sommes rencontrés par hasard, mais chaque jour ensemble est devenu une évidence.  
+        Cette page est le témoin de nos souvenirs, de nos fous rires, et de tous ces moments simples qui font la beauté de notre histoire.  
+        Ce site est à notre image : <em>authentique, sincère et rempli d'amour</em>. 💖
+    </p>
+</section>
+
+
+<!-- 💖 SECTION PASSIONS -->
+<section class="passions">
+    <h2>🌟 Nos Passions</h2>
+    <div class="passion-container">
+        <!-- Passion de Tom -->
+        <div class="passion-card" onclick="window.location.href='passions.html'">
+            <img src="src/img/galerie/ph14.jpg" alt="Passion de Tom">
+            <h3>Tom</h3>
+            <p>Je suis passionné par les voitures, les motos et les sports.</p>
+            <button class="view-more">En savoir plus</button>
+        </div>
+
+        <!-- Passion d'Angèle -->
+        <div class="passion-card" onclick="window.location.href='passions.html'">
+            <img src="src/img/galerie/ph13.jpg" alt="Passion d'Angèle">
+            <h3>Angèle</h3>
+            <p>J'adore l'équitation et la gymnastique.</p>
+            <button class="view-more">En savoir plus</button>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- 🎶 SECTION MUSIQUES PRÉFÉRÉES -->
+<section class="music-section">
+    <h2>🎶 Nos musiques préférées</h2>
+
+    <!-- Playlist de Tom -->
+    <div class="music-container">
+        <h3>🎧 Tom</h3>
+        <ul class="music-list">
+            <li>
+                <span>1. Linkin Park - The Emptiness Machine</span>
+                <audio controls>
+                    <source src="src/music/theemptinessmachine.mp3" type="audio/mpeg">
+                    Votre navigateur ne supporte pas l'élément audio.
+                </audio>
+            </li>
+            <li>
+                <span>2. Ariana Grande - One Last Time</span>
+                <audio controls>
+                    <source src="src/music/onelasttime.mp3" type="audio/mpeg">
+                    Votre navigateur ne supporte pas l'élément audio.
+                </audio>
+            </li>
+            <li>
+                <span>3. Sheryl Crow - Real Gone</span>
+                <audio controls>
+                    <source src="src/music/realgone.mp3" type="audio/mpeg">
+                    Votre navigateur ne supporte pas l'élément audio.
+                </audio>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Playlist d'Angèle -->
+    <div class="music-container">
+        <h3>🎧 Angèle</h3>
+        <ul class="music-list">
+            <li>
+                <span>1. Dinos & Hélène Segara - Cent Fois</span>
+                <audio controls>
+                    <source src="src/music/centfois.mp3" type="audio/mpeg">
+                    Votre navigateur ne supporte pas l'élément audio.
+                </audio>
+            </li>
+            <li>
+                <span>2. Kygo & Justin Jesso - Firestone</span>
+                <audio controls>
+                    <source src="src/music/firestone.mp3" type="audio/mpeg">
+                    Votre navigateur ne supporte pas l'élément audio.
+                </audio>
+            </li>
+            <li>
+                <span>3. Ninho - Vrais</span>
+                <audio controls>
+                    <source src="src/music/vrais.mp3" type="audio/mpeg">
+                    Votre navigateur ne supporte pas l'élément audio.
+                </audio>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- Conteneur invisible pour les cœurs animés -->
+<div id="hearts-container"></div>
+
+
+    <footer class="footer">
+        <p>Avec amour, Tom & Angèle ❤️</p>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+</body>
+<div id="hearts-container"></div>
+</html>

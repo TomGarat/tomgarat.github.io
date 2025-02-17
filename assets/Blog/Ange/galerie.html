@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie de Souvenirs</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<!-- Lightbox pour afficher l'image agrandie -->
+<!-- Lightbox pour images et vidéos -->
+<div class="lightbox" id="lightbox">
+    <span class="close-btn" onclick="closeLightbox()">&#10006;</span>
+    <!-- Affichage d'une image -->
+    <img src="" alt="Aperçu" id="lightbox-img">
+
+    <!-- Affichage d'une vidéo -->
+    <video controls id="lightbox-video" style="display: none;">
+        Votre navigateur ne supporte pas les vidéos.
+    </video>
+
+    <div class="hearts-container" id="hearts-container"></div>
+</div>
+
+
+
+<body>
+    <header class="header">
+        <h1>Notre Galerie de Souvenirs 📸</h1>
+    </header>
+
+    <section class="gallery">
+        <h2>Nos plus beaux moments 💖</h2>
+        <div class="gallery-grid">
+            <!-- Images -->
+            <img src="src/img/galerie/ph1.jpg" alt="Photo 1">
+            <img src="src/img/galerie/ph2.jpg" alt="Photo 2">
+            <img src="src/img/galerie/ph3.jpg" alt="Photo 3">
+            <img src="src/img/galerie/ph9.jpg" alt="Photo 9">
+            <img src="src/img/galerie/ph10.jpg" alt="Photo 10">
+            <img src="src/img/galerie/ph11.jpg" alt="Photo 11">
+            <img src="src/img/galerie/ph12.jpg" alt="Photo 12">
+    
+            <!-- Vidéos avec icône play -->
+            <div class="video-container">
+                <video class="video-thumb" data-video="src/img/galerie/videos/vd1.mp4" poster="src/img/galerie/video-thumbnail1.jpg" muted loop>
+                    Votre navigateur ne supporte pas la vidéo.
+                </video>
+                <div class="play-icon">▶️</div>
+            </div>
+            
+            <div class="video-container">
+                <video class="video-thumb" data-video="src/img/galerie/videos/vd2.mp4" poster="src/img/galerie/video-thumbnail2.jpg" muted loop>
+                    Votre navigateur ne supporte pas la vidéo.
+                </video>
+                <div class="play-icon">▶️</div>
+            </div>
+            
+            <div class="video-container">
+                <video class="video-thumb" data-video="src/img/galerie/videos/vd3.mp4" poster="src/img/galerie/video-thumbnail3.jpg" muted loop>
+                    Votre navigateur ne supporte pas la vidéo.
+                </video>
+                <div class="play-icon">▶️</div>
+            </div>
+            
+    
+            <!-- Autres images -->
+            <img src="src/img/galerie/ph4.jpg" alt="Photo 4">
+            <img src="src/img/galerie/ph5.jpg" alt="Photo 5">
+            <img src="src/img/galerie/ph6.jpg" alt="Photo 6">
+            <img src="src/img/galerie/ph7.jpg" alt="Photo 7">
+            <img src="src/img/galerie/ph8.jpg" alt="Photo 8">
+        </div>
+    
+        <a href="index.html" class="view-more">Retour à l'accueil</a>
+    </section>
+    
+    
+
+
+    <footer class="footer">
+        <p>Avec amour, Tom & Angèle ❤️</p>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+
+</body>
+</html>
